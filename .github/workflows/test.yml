@@ -22,3 +22,10 @@ jobs:
         name: example.zip
         # Directory containing files to upload
         path: .
+    - name: Download artifact
+      uses: actions/download-artifact@v1.0.0
+      with:
+        # Artifact name
+        name: example.zip
+        # Destination path
+        path: ./artifacts
