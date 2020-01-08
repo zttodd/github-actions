@@ -26,6 +26,4 @@ jobs:
       uses: actions/download-artifact@v1.0.0
       with:
         # Artifact name
-        name: example.zip
-        # Destination path
-        path: ./artifacts
+        name: download-example.zip
